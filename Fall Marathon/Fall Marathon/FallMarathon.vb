@@ -15,5 +15,8 @@ Public Class frmFallMarathon
         btnViewInfo.Enabled = False
     End Sub
 
-
+    Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
+        'This code closes the window and terminates the program execution.
+        Close()
+    End Sub
 End Class
